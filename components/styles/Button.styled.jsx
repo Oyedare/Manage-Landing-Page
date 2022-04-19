@@ -26,3 +26,18 @@ export const AboutButton = styled.button`
   text-align: center;
   height: 100%;
 `
+export const CTAButton  = styled.button`
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color: var(--btn-bg);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+
+  :hover{
+    background-color: var(--btn-cta-hover);
+  }
+`

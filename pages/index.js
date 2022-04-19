@@ -1,4 +1,5 @@
 import About from '../components/About'
+import CTA from '../components/CTA'
 import  Header from '../components/Header'
 import Testimonial from '../components/Testimonial'
 
@@ -9,6 +10,7 @@ export default function Home() {
         <Header />
         <About />
         <Testimonial />
+        <CTA />
       </>
   )
 }
