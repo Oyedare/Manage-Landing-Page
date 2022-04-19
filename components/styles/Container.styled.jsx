@@ -5,5 +5,4 @@ export const Container = styled.div`
   max-width: 100%;
   padding: 2rem 0;
   margin: 0 auto;
-  /* background-color: black; */
 `

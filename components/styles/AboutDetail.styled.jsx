@@ -10,7 +10,7 @@ export const StyledAboutDetail = styled.div`
 
 export const AboutDetailFlex = styled.div`
   display: flex;
-  margin-bottom: 5rem; 
+  margin-bottom: 4rem; 
  `
 
 export const AboutText = styled.div`
