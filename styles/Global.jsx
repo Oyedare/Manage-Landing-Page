@@ -22,8 +22,11 @@ const GlobalStyles = createGlobalStyle`
     color: var(--text-color);
     background-image: url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: right 20% top 200%;
+    background-size: 850px;
+    background-position: 80% -20%;
+    /* background-size: 5000px; */
+    /* background-position: cover; */
+    /* background-position: 500% 100%; */
   }
   img{
     max-width: 100%;

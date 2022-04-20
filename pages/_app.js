@@ -1,6 +1,7 @@
 import GlobalStyles from "../styles/Global"
 import { ThemeProvider } from "styled-components"
 
+
 const theme = {
   mobile: '375px'
 };

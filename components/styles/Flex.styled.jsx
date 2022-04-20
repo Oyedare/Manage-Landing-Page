@@ -19,4 +19,9 @@ export const HeaderFlex = styled.div`
     margin-bottom: 2.5rem;
   }
 `
+export const FooterFlex = styled.div`
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+`
 
