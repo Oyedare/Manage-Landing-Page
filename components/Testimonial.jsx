@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "./styles/Button.styled";
 import { Container } from "./styles/Container.styled";
 import { StyledTestimomial, StyledTestimonialCard, StyledTestimonialCardItem } from "./styles/Testimonial.styled";
@@ -31,7 +32,7 @@ const Testimonial = () => {
         <StyledTestimonialCard>
           {testimonialCard.map((testimonial)=>(
             <StyledTestimonialCardItem key={testimonial.id}>
-              <img src={testimonial.img} alt="" />
+              <Image src={testimonial.img} alt="" />
               <h2>{testimonial.name}</h2>
               <p>{testimonial.testimony}</p>
             </StyledTestimonialCardItem>

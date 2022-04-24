@@ -43,7 +43,7 @@ const Header = () => {
             </p>
             <Button>Get Started</Button>
           </HeaderFlex>
-          <Image src = '../images/illustration-intro.svg'/>
+          <Image src = '../images/illustration-intro.svg' alt="header-img"/>
         </Flex>
       </Container>
     </StyledHeader>

@@ -5,28 +5,28 @@ const FooterMenu = () => {
   return ( 
     <StyledFooterMenu>
       <StyledFooterMenuItem>
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>Home</StyledFooterLink>
         </Link> 
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>Pricing</StyledFooterLink>
         </Link>
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>Products</StyledFooterLink>
         </Link>  
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>About</StyledFooterLink>
         </Link>  
       </StyledFooterMenuItem>
 
       <StyledFooterMenuItem>
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>Careers</StyledFooterLink>
         </Link>  
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>Community</StyledFooterLink>
         </Link>  
-        <Link href="/">
+        <Link href="/" passHref>
           <StyledFooterLink>Privacy Policy</StyledFooterLink>
         </Link>  
       </StyledFooterMenuItem>
