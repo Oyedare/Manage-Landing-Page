@@ -14,7 +14,6 @@ const About = () => {
             <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
           </AboutTextFlex>
           <AboutDeatil />
-
         </AboutFlex>
       </Container>
     </StyledAbout>

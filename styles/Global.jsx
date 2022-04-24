@@ -1,7 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+ 
   *{
     margin: 0;
     padding: 0;
@@ -24,9 +25,10 @@ const GlobalStyles = createGlobalStyle`
     background-repeat: no-repeat;
     background-size: 850px;
     background-position: 80% -20%;
-    /* background-size: 5000px; */
-    /* background-position: cover; */
-    /* background-position: 500% 100%; */
+
+    @media (max-width: ${({theme})=>theme.mobile}){
+      background-position: -15% -2%;
+    }
   }
   img{
     max-width: 100%;

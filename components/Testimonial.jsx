@@ -30,7 +30,7 @@ const Testimonial = () => {
         <h1>What's Different About Manage?</h1>
         <StyledTestimonialCard>
           {testimonialCard.map((testimonial)=>(
-            <StyledTestimonialCardItem>
+            <StyledTestimonialCardItem key={testimonial.id}>
               <img src={testimonial.img} alt="" />
               <h2>{testimonial.name}</h2>
               <p>{testimonial.testimony}</p>

@@ -1,6 +1,6 @@
 import GlobalStyles from "../styles/Global"
 import { ThemeProvider } from "styled-components"
-
+import "./_app.css";
 
 const theme = {
   mobile: '375px'
@@ -9,8 +9,8 @@ const theme = {
 function MyApp({ Component, pageProps }) {
   return (
     <> 
-      <GlobalStyles />
       <ThemeProvider theme={theme}>
+      <GlobalStyles />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
