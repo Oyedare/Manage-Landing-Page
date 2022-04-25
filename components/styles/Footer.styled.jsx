@@ -44,7 +44,6 @@ export const FooterCenter = styled.div`
 `
 
 export const FooterRight = styled.div`
-
 @media (max-width: ${({theme})=>theme.mobile}){
  width: 100%; 
  margin-bottom: 4rem;
@@ -56,7 +55,7 @@ text-align: center;
 input{
   border: none;
   outline: none;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   border-radius: 50px;
   margin-right: 1rem;
   

@@ -36,14 +36,15 @@ export const AboutTextFlex = styled.div`
   }
   }
   p{
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 30px;
     margin-bottom: 2.5rem;
     width: 90%;
     @media (max-width: ${({theme})=>theme.mobile}){
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 40px;
     width: 100%;
+    margin-bottom: 2.7rem;
   }
   }
 `

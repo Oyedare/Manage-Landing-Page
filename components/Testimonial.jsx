@@ -5,19 +5,19 @@ import { StyledTestimomial, StyledTestimonialCard, StyledTestimonialCardItem } f
 
 const testimonialCard = [
   {
-    img:'../images/avatar-anisha.png',
+    img:'/images/avatar-anisha.png',
     name: 'Anisha Li',
     testimony: ' “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.” ',
     id: 1
   },
   {
-    img:'../images/avatar-ali.png',
+    img:'/images/avatar-ali.png',
     name: 'Ali Bravo',
     testimony: ' “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.” ',
     id: 2
   },
   {
-    img:'../images/avatar-richard.png',
+    img:'/images/avatar-richard.png',
     name: 'Richard Watts',
     testimony: ' “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.” ',
     id: 3
@@ -32,7 +32,7 @@ const Testimonial = () => {
         <StyledTestimonialCard>
           {testimonialCard.map((testimonial)=>(
             <StyledTestimonialCardItem key={testimonial.id}>
-              <Image src={testimonial.img} alt="" />
+              <Image src={testimonial.img} alt="" width='100%' height='100%' />
               <h2>{testimonial.name}</h2>
               <p>{testimonial.testimony}</p>
             </StyledTestimonialCardItem>

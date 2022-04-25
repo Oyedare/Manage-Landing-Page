@@ -12,7 +12,7 @@ export const StyledCTA = styled.div`
 
   h1{
     color: #fff;
-    font-size: 2.25rem;
+    font-size: 2.1rem;
     width: 50%;
 
     @media (max-width: ${({theme})=>theme.mobile}){

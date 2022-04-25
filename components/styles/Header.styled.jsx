@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.div`
-  /* background-color: red; */
   @media (max-width: ${({theme})=>theme.mobile}){
   width: 40rem;
   position: relative;
@@ -12,12 +11,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 cursor: pointer;
-font-size: 1rem;
+font-size: .9rem;
 margin-bottom: 3rem;
-
-@media (max-width: ${({theme})=>theme.mobile}){
-  
-}
 
 `
 
@@ -27,5 +22,8 @@ export const Logo = styled.img`
 }
 `
 export const Image = styled.img`
-
+width: 50%;
+@media (max-width: ${({theme})=>theme.mobile}){
+  width: 100%;
+}
 `

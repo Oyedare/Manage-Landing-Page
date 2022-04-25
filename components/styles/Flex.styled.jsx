@@ -25,7 +25,7 @@ export const HeaderFlex = styled.div`
       }
       }
   p{
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 25px;
     margin-bottom: 2.5rem;
     

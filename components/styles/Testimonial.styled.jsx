@@ -8,7 +8,7 @@ text-align: center;
   h1{
     color: #000;
     margin-bottom: 5rem;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     @media (max-width: ${({theme})=>theme.mobile}){
       font-size: 3.5rem;
     }
@@ -30,8 +30,8 @@ export const StyledTestimonialCardItem  = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: var(--card-bg);
-  margin-left: 2.5rem;
-  padding: 2rem 2rem;
+  margin-left: 3rem;
+  padding: 1.5rem 1.5rem;
   border-radius: 5px;
 
   @media (max-width: ${({theme})=>theme.mobile}){
@@ -60,12 +60,5 @@ export const StyledTestimonialCardItem  = styled.div`
     }
   }
 
-  img{
-    width: 4rem;
-    margin-top: -3.5rem;
-    @media (max-width: ${({theme})=>theme.mobile}){
-      width: 7rem;
-      margin-top: -4rem;
-    }
-  }
+  
 `

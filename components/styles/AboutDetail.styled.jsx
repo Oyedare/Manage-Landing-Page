@@ -27,7 +27,7 @@ export const AboutText = styled.div`
 
   h1{
     color: #000;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
     font-weight: 700;
 
@@ -40,11 +40,11 @@ export const AboutText = styled.div`
     }
   }
   p{
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 25px;
 
     @media (max-width: ${({theme})=>theme.mobile}){
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       line-height: 40px;
     }
   }    
